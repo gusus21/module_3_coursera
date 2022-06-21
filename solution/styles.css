@@ -35,6 +35,7 @@ a{
  
 #collapsable-nav{
     background-color: gray;
+}
 @media(max-width: 767px){
 .visible-xs{
     visibility: visible;
