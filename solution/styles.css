@@ -29,3 +29,21 @@ a{
     background-color: gray;
     margin: 2px auto;
 }
+.visible-xs{
+    visibility: hidden;
+}
+   
+@media(max-width: 767px){
+.visible-xs{
+    visibility: visible;
+}
+#collapsable-nav{
+    background-color: gray;
+}
+#nav-list{
+    text-align: center;
+}
+.top{
+    font-size: 16px;
+}
+}
