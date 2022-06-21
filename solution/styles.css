@@ -32,13 +32,14 @@ a{
 .visible-xs{
     visibility: hidden;
 }
-   
+ 
+#collapsable-nav{
+    background-color: gray;
 @media(max-width: 767px){
 .visible-xs{
     visibility: visible;
 }
-#collapsable-nav{
-    background-color: gray;
+
 }
 #nav-list{
     text-align: center;
