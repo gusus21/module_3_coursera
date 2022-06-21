@@ -24,6 +24,7 @@ a{
 #chicken, #beef, #sushi{
     height: 240px;
     width: 100%;
+    overflow: auto;
 }
 .col-lg-3, .col-md-6, .col-md-11, .col-sm-12{
     background-color: gray;
